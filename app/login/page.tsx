@@ -21,6 +21,18 @@ export default function LoginPage() {
           Login
         </Button>
       </Form>
+      {/* <div style={{ textAlign: 'center', marginTop: '50px' }}>
+    <h1>Login</h1>
+    <button onClick={() => signIn('google')} style={{ margin: '10px' }}>
+      Sign in with Google
+    </button>
+    <button onClick={() => signIn('facebook')} style={{ margin: '10px' }}>
+      Sign in with Facebook
+    </button>
+    <button onClick={() => signIn('apple')} style={{ margin: '10px' }}>
+      Sign in with Apple ID
+    </button>
+  </div> */}
     </Container>
   );
 }
