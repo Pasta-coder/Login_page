@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { signIn } from 'next-auth/react';
 import { Form, Button, Container } from "react-bootstrap";
 
 export default function LoginPage() {
@@ -21,7 +22,7 @@ export default function LoginPage() {
           Login
         </Button>
       </Form>
-      {/* <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <div style={{ textAlign: 'center', marginTop: '50px' }}>
     <h1>Login</h1>
     <button onClick={() => signIn('google')} style={{ margin: '10px' }}>
       Sign in with Google
@@ -32,7 +33,7 @@ export default function LoginPage() {
     <button onClick={() => signIn('apple')} style={{ margin: '10px' }}>
       Sign in with Apple ID
     </button>
-  </div> */}
+  </div>
     </Container>
   );
 }
